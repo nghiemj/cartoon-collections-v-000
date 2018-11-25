@@ -11,14 +11,6 @@ def summon_captain_planet(planeteer_calls)
   #(&:capitalize) + "!"
 end
 
-#def summon_captain_planet(planeteer_calls)
-#  planeteer_calls.map(&:capitalize + "!")
-#end
-
-#planeteer_calls.map { |call| capitalize your call and add ! here }
-
-
-
 def long_planeteer_calls(words)
   if words.length < 4
     FALSE
